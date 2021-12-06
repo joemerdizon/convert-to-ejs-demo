@@ -1,0 +1,277 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 300;
+  color: #262626;
+  width: 614px;
+  overflow-x: hidden;
+}
+
+b,
+strong {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+header,
+main,
+footer {
+  display: block;
+  position: relative;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+  width: 100%;
+  height: auto;
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+}
+
+p {
+  font-size: 11px;
+  line-height: 18px;
+  margin: -1px 0 21px 0;
+  font-weight: 300;
+}
+
+input,
+textarea,
+select,
+button {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  overflow: hidden;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+  outline: none;
+}
+
+.page-container {
+  background-image: url(./img/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  width: 614px;
+  height: 865px;
+}
+
+.container-inner {
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.form-line {
+  margin-bottom: 8px;
+}
+
+.form-line__question {
+  font-size: 11px;
+  line-height: 16px;
+  display: table-cell;
+  vertical-align: middle;
+  height: 25px;
+  color: #125363;
+}
+
+.form-line__bullet {
+  float: left;
+  width: 20px;
+  margin-right: 5px;
+  position: relative;
+  top: 3px;
+}
+
+.form-line__text-area {
+  resize: none;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  position: absolute;
+  right: 20px;
+  left: 20px;
+  width: 90%;
+  background: transparent;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.hr {
+  height: 6px;
+  width: 100%;
+  background: #0e5263;
+  position: relative;
+  z-index: 1;
+}
+
+/* PAGES */
+.header-page1__text1 {
+  position: absolute;
+  top: 95px;
+  font-size: 15px;
+  font-weight: 300;
+  left: 79px;
+}
+
+.header-page1__text2 {
+  color: #125363;
+  position: absolute;
+  top: 130px;
+  font-size: 45px;
+  font-weight: 900;
+  left: 78px;
+  letter-spacing: 1px;
+}
+
+.header-page1__text4 {
+  position: absolute;
+  right: 78px;
+  top: 162px;
+  font-size: 15px;
+}
+
+.header-page1__top-logo {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 15px;
+  left: 112px;
+}
+
+.content-page1__text--space {
+  margin-top: 8px;
+}
+
+.content-page1__text--mark {
+  background: #55cade;
+}
+
+.content-page1-big-text {
+  float: left;
+  font-size: 16px;
+  color: #125363;
+  text-align: center;
+  position: relative;
+  top: 40px;
+  width: 280px;
+  line-height: 18px;
+}
+
+.content-page1-img {
+  width: 200px;
+  float: right;
+  position: relative;
+  top: -34px;
+}
+
+.hr--fix {
+  margin-top: -35px;
+}
+
+.content-page2-text {
+  margin-top: 45px;
+}
+
+.form-line--item1 {
+  margin-top: 12px;
+}
+
+.content-page2-list {
+  background: url(./img/page2-pic.png) right center no-repeat;
+  height: 190px;
+  background-size: 550px;
+  margin-top: -35px;
+  padding-left: 209px;
+  padding-top: 47px;
+}
+
+.content-page2-list__item {
+  position: relative;
+  font-weight: 600;
+  color: #125363;
+  /* font-size: 12px; */
+  margin-bottom: 7px;
+}
+
+.content-page2-list__img {
+  width: 22px;
+  float: left;
+  margin-right: 14px;
+}
+
+.footer-page2 {
+  position: relative;
+  bottom: 0;
+  text-align: center;
+  margin-top: 32px;
+}
+
+.footer-page2__image {
+  width: 515px;
+  margin-left: -36px;
+  margin-top: 19px;
+}
+
+.footer-page2__text {
+  position: absolute;
+  top: 30px;
+  left: 185px;
+  font-size: 9px;
+}
+
+.footer-page2__logo {
+  position: absolute;
+  width: 27px;
+  height: 25px;
+  top: 69px;
+  right: 323px;
+}
+
+.footer-page2__name {
+  position: absolute;
+  top: 76px;
+  bottom: 16px;
+  text-transform: uppercase;
+  color: #125363;
+  font-size: 13px;
+  left: 297px;
+}
